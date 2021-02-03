@@ -225,6 +225,12 @@ button {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .fv {
+    max-width: 1024px;
+  }
+}
+
 .fv .left-fv {
   position: absolute;
   top: 262px;
@@ -681,6 +687,7 @@ button {
   padding-top: 18px;
   padding-bottom: 20px;
   border-bottom: solid 1px #E5E5E5;
+  cursor: pointer;
 }
 
 .Q-A .q-a-contents .answer {
@@ -761,6 +768,12 @@ button {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .blog-contents {
+    max-width: 1024px;
+  }
+}
+
 .blog-contents .blog-container {
   width: 389px;
   height: 387px;
@@ -784,7 +797,7 @@ button {
 
 @media only screen and (max-width: 1024px) {
   .blog-contents .blog-container {
-    width: 250px;
+    width: 25%;
   }
   .blog-contents .blog-container img {
     width: 100%;

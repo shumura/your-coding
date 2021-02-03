@@ -208,6 +208,8 @@ button{
     @include sp{
         max-width: 678px;
         background-position: top -30px right -80px;   
+    }@include tb{
+        max-width: 1024px;
     }
     
     
@@ -544,6 +546,7 @@ button{
             padding-top: 18px;
             padding-bottom: 20px;
             border-bottom: solid 1px $color11;
+            cursor: pointer;
         }
         .answer{
             background-color: $color13;
@@ -608,6 +611,9 @@ button{
         padding: 0 10px;
         padding-bottom: 40px;
     }
+    @include tb{
+        max-width: 1024px;
+    }
     .blog-container{
         width: 389px;
         height: 387px;
@@ -625,7 +631,7 @@ button{
             }
         }
         @include tb{
-            width: 250px;
+            width: 25%;
             img{
                 width: 100%;
             }
