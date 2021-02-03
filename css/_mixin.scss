@@ -1,0 +1,36 @@
+/*style*/
+@mixin inner{
+    max-width: 1022px;
+    margin: 0 auto;
+}
+
+@mixin btn{
+    display: inline-block;
+    color: $color1;
+    font-size: 14px;
+    height: 37px;
+    width: 155px;
+    text-align: center;
+    line-height: 37px;
+    background: transparent linear-gradient(90deg, #FA41CC 0%, #6020B0 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px #000029;
+}
+
+@mixin required{
+    display: inline-block;
+            margin-left: 23px;
+            font-size: 14px;
+            color: $color1;
+            background-color: $color14;
+            padding: 4px 16px 6px;
+            border-radius: 10px;
+}
+
+/*features*/
+
+@mixin features-p{
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
